@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+<style>
+body{
+    background: linear-gradient(180deg, #d1cbcbc6, #414040);
+}
+.box{
+    width: 650px;
+    height: 97vh;
+    margin: auto;
+    padding: 2px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+    border-radius:10px;
+    overflow: scroll;
+}
+.box::-webkit-scrollbar{
+    width: 0;
+}
+.box .boxinbox{
+    margin: auto;
+    border-radius:10px;
+    background-color: white;
+    height: 1000px;
+}
+.box .boxinbox .title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    background-color: rgb(89, 89, 209);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.box .boxinbox .content{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    /* border:1px solid black; */
+    padding: 10px;
+}
+.box .boxinbox .content .prof{
+    border:1px solid rgb(89, 89, 209);
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.box .boxinbox .content .text{
+    font-size:40px;
+    margin: auto;
+}
+.box .boxinbox .info{
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 2cm;
+}
+.box .boxinbox .sm{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.box .boxinbox .sm a .pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border:1px solid rgb(89, 89, 209);
+}
+.box .boxinbox .sm a .pic img:hover{
+    transform: translateY(-20px);
+    animation-duration: 1s ease;
+    width: 120px;
+    height: 120px;
+}
+.box .boxinbox .hobbies{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.box .boxinbox .hobbies img{
+    width: 100px;
+    height: 100px;
+    border:1px solid rgb(89, 89, 209);
+    border-radius: 10px;
+}
+.box .boxinbox .details{
+    text-align: justify;
+    
+}
+.box .boxinbox .details ul{
+    list-style-type: none;
+}
+.box .boxinbox .it{
+    display: flex;
+    justify-content: space-evenly;
+}
+</style>
+</head>
+<body>
+    <div class="box">
+        <div class="boxinbox">
+            <div class="title">A lttle info about Me</div>
+            <div class="content">
+                <div class="prof"></div>
+                <div class="text">Hi! Im Janmarc Pulmones</div>
+            </div>
+            <hr>
+            <p style="text-indent: 2cm;
+            padding: 10px; text-align: justify;">As of now, I am 19 years old and currently residing in Dologon,
+                Maramag, Bukidnon. I am studying Information Technology at Central
+                Mindanao University.
+            </p>
+            <div style="text-align: center;padding: 10px;background-color:rgb(89, 89, 209) ;">
+                More Info
+            </div>
+            <div class="details">
+                <ul>
+                    <li>Sex: Male</li>
+                    <li>ID Number: 2023301607</li>
+                    <li>Birth Date: March 2, 2005</li>
+                    <li>Home Address: Pangantucan, Bukidnon</li>
+                    <li>Institutional Email: s.pulmones.janmarc@cmu.edu.ph</li>
+                    
+                </ul>
+            </div>
+            <br>
+            <div style="text-align: center;padding: 10px;background-color:rgb(89, 89, 209) ;">
+                My Hobbies
+            </div><br>
+            <div class="hobbies">
+                <div class="hold">
+                    <img src="basketball.jpg">
+                    <h3 >Basketball</h3>
+                </div>
+                <div class="hold">
+                    <img src="gaming.jpg">
+                    <h3 >Gaming</h3>
+                </div>
+                <div class="hold">
+                    <img src="Sketch.png">
+                    <h3 >Sketching</h3>
+                </div>
+                <div class="hold">
+                    <img src="painting.jpg">
+                    <h3 >Painting</h3>
+                </div>
+                <div class="hold">
+                    <img src="coding.jpg">
+                    <h3 >Coding</h3>
+                </div>
+            </div>
+            <div style="text-align: center;padding: 10px;background-color:rgb(89, 89, 209) ;">
+                My Social Media Accounts
+            </div>
+            <br>
+            <div class="sm">
+                <a href="https://www.facebook.com/janmarc.pulmones.9?mibextid=ZbWKwL">
+                    <div class="pic"><img src="fb.jpg"></div>
+                </a>
+                <a href="https://www.instagram.com/jpulms24?igsh=MTlxcGQ2ZGRocGFoMQ==">
+                    <div class="pic"><img src="ig.jpg"></div>
+                </a>
+                <a href="https://www.youtube.com/@codmarcus3162">
+                    <div class="pic"><img src="YouTube.png"></div>
+                </a>
+            </div>
+            <div class="it">
+                <i>Facebook</i>
+                <i>Instagram</i>
+                <i>YouTube</i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
